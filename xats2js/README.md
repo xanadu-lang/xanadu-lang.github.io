@@ -6,4 +6,4 @@ For presenting the xats2js project under xanadu-lang.
 
 Xats2js is a compiler translating xatscml to JS, where xatscml
 is the target language of the xatsopt compiler (which translates
-For compiling ATS/Xanadu to JSATS/Xanadu into xatscml).
+ATS/Xanadu (that is, ATS3) into xatscml).

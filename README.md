@@ -1,2 +1,2 @@
 # xanadu-lang.github.io
-For presenting various projects under xanadu-lang
+For presenting and documenting various projects under xanadu-lang
