@@ -126,6 +126,8 @@ QueenPuzzle_control_reset()
 alert("QueenPuzzle_control_reset");
 */
 //
+theAuto = 0;
+//
 let
 output = "The stream is reset!";
 XATS2JS_the_print_store_clear();
