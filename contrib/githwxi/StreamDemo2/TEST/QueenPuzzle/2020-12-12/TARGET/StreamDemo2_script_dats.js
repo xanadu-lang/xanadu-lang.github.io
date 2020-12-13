@@ -2680,8 +2680,41 @@ return xtmp115;
 // L1DCLnone0()
 
 /* ****** ****** */
+{
+document.title =
+the_StreamDemo2_title();
+}
+//
+{
 let
-StreamDemo2_display =
+myelmnt =
+document.getElementById
+("StreamDemo2_stream_name");
+myelmnt.innerHTML =
+the_StreamDemo2_stream_name();
+}
+//
+{
+let
+myelmnt =
+document.getElementById
+("StreamDemo2_input_descript");
+myelmnt.innerHTML =
+the_StreamDemo2_input_descript();
+}
+//
+/* ****** ****** */
+function
+the_StreamDemo2_display_update()
+{
+let
+output =
+XATS2JS_the_print_store_join();
+XATS2JS_the_print_store_clear();
+the_StreamDemo2_display.innerHTML = output;
+}
+let
+the_StreamDemo2_display =
 document.getElementById("StreamDemo2_display");
 /* ****** ****** */
 //
@@ -2752,10 +2785,7 @@ if
 let opt =
 the_StreamDemo2_next1();
 the_StreamDemo2_xprint(opt);
-let output =
-XATS2JS_the_print_store_join();
-XATS2JS_the_print_store_clear();
-StreamDemo2_display.innerHTML = output;
+the_StreamDemo2_display_update();
 //
 let
 my_ftimeout = function()
@@ -2813,9 +2843,9 @@ alert("StreamDemo2_control_reset");
 the_StreamDemo2_auto = 0;
 //
 let
-output = "The stream is reset!";
+text = "The stream is reset!";
 XATS2JS_the_print_store_clear();
-StreamDemo2_display.innerHTML = output;
+the_StreamDemo2_display.innerHTML = text;
 //
 let _void1_ = the_StreamDemo2_reset();
 //
@@ -2855,10 +2885,7 @@ alert("StreamDemo2_control_next1");
 let opt =
 the_StreamDemo2_next1();
 the_StreamDemo2_xprint(opt);
-let output =
-XATS2JS_the_print_store_join();
-XATS2JS_the_print_store_clear();
-StreamDemo2_display.innerHTML = output;
+the_StreamDemo2_display_update();
 //
 button_enable(StreamDemo2_button_reset);
 button_enable(StreamDemo2_button_prev1);
@@ -2886,10 +2913,7 @@ alert("StreamDemo2_control_prev1");
 let opt =
 the_StreamDemo2_prev1();
 the_StreamDemo2_xprint(opt);
-let output =
-XATS2JS_the_print_store_join();
-XATS2JS_the_print_store_clear();
-StreamDemo2_display.innerHTML = output;
+the_StreamDemo2_display_update();
 //
 button_enable(StreamDemo2_button_reset);
 button_enable(StreamDemo2_button_next1);
@@ -3853,31 +3877,46 @@ return xtmp83;
 // ./QueenPuzzle.dats: 1772(line=144, offs=1) -- 1796(line=144, offs=25)
 // L1DCLnone1(H0Cnone1(...))
 
-// ./QueenPuzzle.dats: 1817(line=146, offs=1) -- 1949(line=155, offs=8)
+// ./QueenPuzzle.dats: 1817(line=146, offs=1) -- 1876(line=148, offs=28)
 // L1DCLnone0()
 
-// ./QueenPuzzle.dats: 2006(line=157, offs=1) -- 2112(line=164, offs=8)
+// ./QueenPuzzle.dats: 1897(line=150, offs=1) -- 1965(line=152, offs=31)
 // L1DCLnone0()
 
-// ./QueenPuzzle.dats: 2113(line=165, offs=1) -- 2228(line=172, offs=8)
+// ./QueenPuzzle.dats: 1966(line=153, offs=1) -- 2087(line=155, offs=81)
 // L1DCLnone0()
 
-// ./QueenPuzzle.dats: 2249(line=174, offs=1) -- 2291(line=174, offs=43)
+// ./QueenPuzzle.dats: 2108(line=157, offs=1) -- 2242(line=166, offs=8)
+// L1DCLnone0()
+
+// ./QueenPuzzle.dats: 2299(line=168, offs=1) -- 2405(line=175, offs=8)
+// L1DCLnone0()
+
+// ./QueenPuzzle.dats: 2406(line=176, offs=1) -- 2521(line=183, offs=8)
+// L1DCLnone0()
+
+// ./QueenPuzzle.dats: 2542(line=185, offs=1) -- 2585(line=185, offs=44)
 // { // include
-// ./../../../StreamDemo2/StreamDemo2.dats
-// ././../../../StreamDemo2/StreamDemo2.dats: 388(line=24, offs=1) -- 444(line=26, offs=31)
+// ./../../../StreamDemo2/StreamDemo2_.dats
+// ././../../../StreamDemo2/StreamDemo2_.dats: 332(line=20, offs=1) -- 388(line=22, offs=31)
 
-// ././../../../StreamDemo2/StreamDemo2.dats: 453(line=28, offs=1) -- 515(line=30, offs=37)
+// ././../../../StreamDemo2/StreamDemo2_.dats: 397(line=24, offs=1) -- 459(line=26, offs=37)
 
-// ././../../../StreamDemo2/StreamDemo2.dats: 524(line=32, offs=1) -- 586(line=34, offs=37)
+// ././../../../StreamDemo2/StreamDemo2_.dats: 468(line=28, offs=1) -- 530(line=30, offs=37)
 
-// ././../../../StreamDemo2/StreamDemo2.dats: 621(line=39, offs=1) -- 685(line=41, offs=38)
+// ././../../../StreamDemo2/StreamDemo2_.dats: 565(line=35, offs=1) -- 623(line=37, offs=33)
 
-// ././../../../StreamDemo2/StreamDemo2.dats: 697(line=44, offs=1) -- 761(line=46, offs=38)
+// ././../../../StreamDemo2/StreamDemo2_.dats: 632(line=39, offs=1) -- 696(line=41, offs=33)
 
-// ././../../../StreamDemo2/StreamDemo2.dats: 785(line=49, offs=1) -- 1144(line=70, offs=6)
+// ././../../../StreamDemo2/StreamDemo2_.dats: 705(line=43, offs=1) -- 772(line=45, offs=33)
+
+// ././../../../StreamDemo2/StreamDemo2_.dats: 807(line=50, offs=1) -- 871(line=52, offs=38)
+
+// ././../../../StreamDemo2/StreamDemo2_.dats: 883(line=55, offs=1) -- 947(line=57, offs=38)
+
+// ././../../../StreamDemo2/StreamDemo2_.dats: 971(line=60, offs=1) -- 1332(line=81, offs=6)
 // { // local
-// ././../../../StreamDemo2/StreamDemo2.dats: 793(line=50, offs=3) -- 860(line=53, offs=33)
+// ././../../../StreamDemo2/StreamDemo2_.dats: 979(line=61, offs=3) -- 1048(line=64, offs=35)
 {
 {
 // ././../../../StreamDemo/DATS/StreamDemo.dats: 2255(line=188, offs=1) -- 2442(line=205, offs=8)
@@ -3914,13 +3953,13 @@ xtmp88 = XATS2JS_fcast(xtmp89);
 }
 ;
 return xtmp88;
-} // function // a0ref_make(56)
+} // function // a0ref_make(62)
 ;
 xtmp86 = a0ref_make_2308_(0);
 }
 ;
 ;
-} // val(H0Pvar(mydir(59)))
+} // val(H0Pvar(mydir(62)))
 ;
 // ././../../../StreamDemo/DATS/StreamDemo.dats: 2332(line=196, offs=1) -- 2381(line=198, offs=25)
 // L1DCLnone0();
@@ -3948,7 +3987,7 @@ xtmp93 = XATS2JS_fcast(xtmp94);
 }
 ;
 return xtmp93;
-} // function // a0ref_make(56)
+} // function // a0ref_make(62)
 ;
 {
 // ././../../../StreamDemo/DATS/StreamDemo.dats: 217(line=13, offs=1) -- 2065(line=172, offs=8)
@@ -4015,13 +4054,13 @@ xtmp101 = a0ref_get_2457_(xtmp86);
 }
 ;
 return xtmp101;
-} // function // StreamDemo$dir(60)
+} // function // StreamDemo$dir(66)
 ;
 xtmp100 = StreamDemo$dir_637_();
 }
 ;
 ;
-} // val(H0Pvar(dir(65)))
+} // val(H0Pvar(dir(68)))
 ;
 {
 // /home/hwxi/Research/ATS-Xanadu/prelude/DATS/CATS/JS/basics.dats: 2559(line=185, offs=1) -- 2614(line=186, offs=48)
@@ -4229,7 +4268,7 @@ return xtmp102;
 ;
 xtmp99 = XATS2JS_new_lazy(xtmp127);
 return xtmp99;
-} // function // aux0(63)
+} // function // aux0(69)
 ;
 // ././../../../StreamDemo/DATS/StreamDemo.dats: 1047(line=87, offs=1) -- 2016(line=170, offs=6)
 function
@@ -4302,13 +4341,13 @@ xtmp133 = a0ref_get_2457_(xtmp86);
 }
 ;
 return xtmp133;
-} // function // StreamDemo$dir(60)
+} // function // StreamDemo$dir(66)
 ;
 xtmp132 = StreamDemo$dir_637_();
 }
 ;
 ;
-} // val(H0Pvar(dir(76)))
+} // val(H0Pvar(dir(79)))
 ;
 {
 // /home/hwxi/Research/ATS-Xanadu/prelude/DATS/CATS/JS/basics.dats: 2559(line=185, offs=1) -- 2614(line=186, offs=48)
@@ -4606,7 +4645,7 @@ return xtmp134;
 ;
 xtmp131 = XATS2JS_new_lazy(xtmp173);
 return xtmp131;
-} // function // aux1(65)
+} // function // aux1(71)
 ;
 // ././../../../StreamDemo/DATS/StreamDemo.dats: 268(line=19, offs=1) -- 307(line=22, offs=16)
 {
@@ -4615,21 +4654,21 @@ xtmp174 = [0];
 }
 ;
 ;
-} // val(H0Pvar(ys(88)))
+} // val(H0Pvar(ys(91)))
 {
 {
 xtmp175 = [0];
 }
 ;
 ;
-} // val(H0Pvar(zs(89)))
+} // val(H0Pvar(zs(92)))
 ;
 {
 xtmp176 = aux1_1050_(a2x1, xtmp174, xtmp175);
 }
 ;
 return xtmp176;
-} // function // StreamDemo_moves(62)
+} // function // StreamDemo_moves(68)
 ;
 xtmp95 = StreamDemo_moves_673_(a1x1);
 }
@@ -4641,16 +4680,16 @@ xtmp90 = [-1, xtmp86, xtmp91];;
 }
 ;
 return xtmp90;
-} // function // StreamDemo_make(55)
+} // function // StreamDemo_make(61)
 ;
 {
-// ./QueenPuzzle.dats: 1817(line=146, offs=1) -- 1949(line=155, offs=8)
+// ./QueenPuzzle.dats: 2108(line=157, offs=1) -- 2242(line=166, offs=8)
 function
-StreamDemo2_data_89_()
+StreamDemo2_stream_626_()
 {
 let xtmp178;
 let xtmp194;
-// ./QueenPuzzle.dats: 1904(line=153, offs=1) -- 1947(line=154, offs=36)
+// ./QueenPuzzle.dats: 2197(line=164, offs=1) -- 2240(line=165, offs=36)
 // L1DCLnone0();
 {
 // /home/hwxi/Research/ATS-Xanadu/prelude/DATS/stream_vt.dats: 297(line=24, offs=1) -- 722(line=60, offs=8)
@@ -4686,13 +4725,13 @@ xtmp182 = XATS2JS_fcast(a3x1);
 }
 ;
 ;
-} // val(H0Pvar(xs(93)))
+} // val(H0Pvar(xs(96)))
 ;
 // /home/hwxi/Research/ATS-Xanadu/prelude/DATS/stream_vt.dats: 462(line=40, offs=1) -- 474(line=40, offs=13)
 {
 xtmp183 = XATS2JS_llazy_eval(xtmp182);
 ;
-} // val(H0Pvar(r0(94)))
+} // val(H0Pvar(r0(97)))
 ;
 {
 xtmp185 = 0;
@@ -4729,7 +4768,7 @@ xtmp188 = XATS2JS_fcast(xtmp187);
 }
 ;
 ;
-} // val(H0Pvar(xs(99)))
+} // val(H0Pvar(xs(102)))
 ;
 // /home/hwxi/Research/ATS-Xanadu/prelude/DATS/stream_vt.dats: 622(line=54, offs=3) -- 656(line=55, offs=26)
 {
@@ -4756,7 +4795,7 @@ return xtmp184;
 ;
 xtmp181 = XATS2JS_new_lazy(xtmp191);
 return xtmp181;
-} // function // auxmain(66)
+} // function // auxmain(72)
 ;
 {
 {
@@ -4767,7 +4806,7 @@ xtmp192 = auxmain_377_(xtmp193);
 }
 ;
 return xtmp192;
-} // function // stream_vt2t(46)
+} // function // stream_vt2t(49)
 ;
 {
 // /home/hwxi/Research/xanadu-lang/xats2js/xatsopt/xatslib/githwxi/DATS/gtree1.dats: 1580(line=56, offs=1) -- 1691(line=63, offs=8)
@@ -4796,13 +4835,13 @@ xtmp198 = [1, a3x1, xtmp199];
 }
 ;
 return xtmp198;
-} // function // list_vt_sing(69)
+} // function // list_vt_sing(75)
 ;
 xtmp196 = list_vt_sing_1720_(a2x1);
 }
 ;
 ;
-} // val(H0Pvar(xs(101)))
+} // val(H0Pvar(xs(104)))
 ;
 {
 // /home/hwxi/Research/xanadu-lang/xats2js/xatsopt/xatslib/githwxi/DATS/gtree1.dats: 1748(line=67, offs=1) -- 2341(line=114, offs=8)
@@ -4889,7 +4928,7 @@ case 1:
 // /home/hwxi/Research/xanadu-lang/xats2js/xatsopt/xatslib/githwxi/DATS/gtree1.dats: 2078(line=97, offs=1) -- 2093(line=97, offs=16)
 {
 ;
-} // val(H0Pvar(xss1(108)))
+} // val(H0Pvar(xss1(111)))
 ;
 {
 xtmp209 = auxmain_1872_(xtmp207);
@@ -4910,7 +4949,7 @@ XATS2JS_lval_set(XATS2JS_new_cofs(a4x1,1), xtmp211);
 // /home/hwxi/Research/xanadu-lang/xats2js/xatsopt/xatslib/githwxi/DATS/gtree1.dats: 2187(line=105, offs=1) -- 2224(line=106, offs=28)
 {
 {
-// ./QueenPuzzle.dats: 1904(line=153, offs=1) -- 1947(line=154, offs=36)
+// ./QueenPuzzle.dats: 2197(line=164, offs=1) -- 2240(line=165, offs=36)
 // { // val-binding
 // } // val-binding
 const // implval/fun
@@ -4920,7 +4959,7 @@ xtmp212 = gtree_node_childlst_1293_(xtmp210);
 }
 ;
 ;
-} // val(H0Pvar(xs0(111)))
+} // val(H0Pvar(xs0(114)))
 ;
 {
 {
@@ -5078,7 +5117,7 @@ xtmp232 = [-1];;
 }
 ;
 return xtmp232;
-} // function // g_free(72)
+} // function // g_free(78)
 ;
 xtmp230 = g_free_1550_(xtmp228);
 }
@@ -5089,7 +5128,7 @@ xtmp230 = g_free_1550_(xtmp228);
 ;
 {
 // tail-recursion:
-// L1CMDapp(tmp(233); L1VALfcst(loop(74)); L1VALtmp(tmp(229)))
+// L1CMDapp(tmp(233); L1VALfcst(loop(80)); L1VALtmp(tmp(229)))
 a11y1 = xtmp229; a11x1 = a11y1; continue;
 }
 ;
@@ -5101,14 +5140,14 @@ default: XATS2JS_matcherr0();
 break;//return
 } while( true );
 return xtmp226;
-} // function // loop(74)
+} // function // loop(80)
 ;
 {
 xtmp234 = loop_1293_(a10x1);
 }
 ;
 return xtmp234;
-} // function // list_vt_free(73)
+} // function // list_vt_free(79)
 ;
 // } // val-binding
 const // implval/fun
@@ -5123,7 +5162,7 @@ xtmp223 = g_free_1550_(xtmp221);
 ;
 {
 // tail-recursion:
-// L1CMDapp(tmp(235); L1VALfcst(loop(74)); L1VALtmp(tmp(222)))
+// L1CMDapp(tmp(235); L1VALfcst(loop(80)); L1VALtmp(tmp(222)))
 a8y1 = xtmp222; a8x1 = a8y1; continue;
 }
 ;
@@ -5135,14 +5174,14 @@ default: XATS2JS_matcherr0();
 break;//return
 } while( true );
 return xtmp219;
-} // function // loop(74)
+} // function // loop(80)
 ;
 {
 xtmp236 = loop_1293_(a7x1);
 }
 ;
 return xtmp236;
-} // function // list_vt_free(73)
+} // function // list_vt_free(79)
 ;
 // } // val-binding
 const // implval/fun
@@ -5155,7 +5194,7 @@ xtmp216 = g_free_1550_(a4x1);
 ;
 xtmp203 = XATS2JS_new_llazy(xtmp237,xtmp238);
 return xtmp203;
-} // function // auxmain(71)
+} // function // auxmain(77)
 ;
 {
 {
@@ -5175,7 +5214,7 @@ xtmp242 = [1, a4x1, xtmp243];
 }
 ;
 return xtmp242;
-} // function // list_vt_sing(69)
+} // function // list_vt_sing(75)
 ;
 xtmp240 = list_vt_sing_1720_(a3x1);
 }
@@ -5184,13 +5223,13 @@ xtmp239 = auxmain_1872_(xtmp240);
 }
 ;
 return xtmp239;
-} // function // gtree_dfs_streamize_list(70)
+} // function // gtree_dfs_streamize_list(76)
 ;
 xtmp200 = gtree_dfs_streamize_list_1493_(xtmp196);
 }
 ;
 return xtmp200;
-} // function // gtree_dfs_streamize(47)
+} // function // gtree_dfs_streamize(50)
 ;
 xtmp194 = gtree_dfs_streamize_1427_(xtop26);
 }
@@ -5199,19 +5238,19 @@ xtmp178 = stream_vt2t_1340_(xtmp194);
 }
 ;
 return xtmp178;
-} // function // StreamDemo2_data(44)
+} // function // StreamDemo2_stream(47)
 ;
-xtop177 = StreamDemo2_data_89_();
+xtop177 = StreamDemo2_stream_626_();
 }
 ;
 xtop84 = StreamDemo_make_121_(xtop177);
 }
 ;
 ;
-} // val(H0Pvar(the_demo(57)))
+} // val(H0Pvar(the_demo(60)))
 
 // in-of-local
-// ././../../../StreamDemo2/StreamDemo2.dats: 902(line=57, offs=1) -- 971(line=59, offs=40)
+// ././../../../StreamDemo2/StreamDemo2_.dats: 1090(line=68, offs=1) -- 1159(line=70, offs=40)
 function
 the_StreamDemo2_reset()
 {
@@ -5261,7 +5300,7 @@ xtmp249 = a0ref_get_2457_(a4x1[2]);
 }
 ;
 ;
-} // val(H0Pvar(xs(123)))
+} // val(H0Pvar(xs(126)))
 ;
 // ././../../../StreamDemo/DATS/StreamDemo.dats: 2620(line=219, offs=1) -- 2651(line=220, offs=27)
 {
@@ -5270,7 +5309,7 @@ if(0!==xtmp250[0]) XATS2JS_patckerr0();
 ;
 xtmp251 = xtmp250[1];
 xtmp252 = xtmp250[2];
-} // val(H0Pdapp(H0Pcon(strxcon_cons(6)); -1; H0Pvar(x0(124)), H0Pvar(xs(125))))
+} // val(H0Pdapp(H0Pcon(strxcon_cons(6)); -1; H0Pvar(x0(127)), H0Pvar(xs(128))))
 ;
 // ././../../../StreamDemo/DATS/StreamDemo.dats: 2652(line=221, offs=1) -- 2688(line=222, offs=28)
 {
@@ -5289,13 +5328,13 @@ xtmp253 = a0ref_set_2496_(a4x1[2], xtmp252);
 } // val(H0Pnil())
 ;
 return xtmp251;
-} // function // StreamDemo_get_elt(77)
+} // function // StreamDemo_get_elt(83)
 ;
 xtmp247 = StreamDemo_get_elt_202_(a3x1);
 }
 ;
 ;
-} // val(H0Pvar(opt(121)))
+} // val(H0Pvar(opt(124)))
 ;
 {
 xtmp255 = 0;
@@ -5330,7 +5369,7 @@ default: XATS2JS_matcherr0();
 } // case-switch
 ;
 return xtmp254;
-} // function // loop(76)
+} // function // loop(82)
 ;
 // ././../../../StreamDemo/DATS/StreamDemo.dats: 3028(line=251, offs=1) -- 3066(line=252, offs=30)
 {
@@ -5353,7 +5392,7 @@ xtmp259 = a0ref_set_2496_(a3x1[1], a3x2);
 }
 ;
 return xtmp259;
-} // function // StreamDemo_set_dir(80)
+} // function // StreamDemo_set_dir(86)
 ;
 {
 // /home/hwxi/Research/ATS-Xanadu/prelude/DATS/CATS/JS/basics.dats: 3589(line=255, offs=1) -- 3646(line=256, offs=50)
@@ -5377,15 +5416,15 @@ xtmp261 = loop_3096_(a2x1);
 }
 ;
 return xtmp261;
-} // function // StreamDemo_reset(75)
+} // function // StreamDemo_reset(81)
 ;
 xtmp244 = StreamDemo_reset_433_(xtop84);
 }
 ;
 return xtmp244;
-} // function // the_StreamDemo2_reset(50)
+} // function // the_StreamDemo2_reset(53)
 
-// ././../../../StreamDemo2/StreamDemo2.dats: 975(line=61, offs=1) -- 1044(line=63, offs=40)
+// ././../../../StreamDemo2/StreamDemo2_.dats: 1163(line=72, offs=1) -- 1232(line=74, offs=40)
 function
 the_StreamDemo2_next1()
 {
@@ -5420,7 +5459,7 @@ xtmp267 = a0ref_set_2496_(a3x1[1], a3x2);
 }
 ;
 return xtmp267;
-} // function // StreamDemo_set_dir(80)
+} // function // StreamDemo_set_dir(86)
 ;
 {
 // /home/hwxi/Research/ATS-Xanadu/prelude/DATS/CATS/JS/basics.dats: 3428(line=245, offs=1) -- 3485(line=246, offs=50)
@@ -5465,7 +5504,7 @@ xtmp271 = a0ref_get_2457_(a3x1[2]);
 }
 ;
 ;
-} // val(H0Pvar(xs(123)))
+} // val(H0Pvar(xs(126)))
 ;
 // ././../../../StreamDemo/DATS/StreamDemo.dats: 2620(line=219, offs=1) -- 2651(line=220, offs=27)
 {
@@ -5474,7 +5513,7 @@ if(0!==xtmp272[0]) XATS2JS_patckerr0();
 ;
 xtmp273 = xtmp272[1];
 xtmp274 = xtmp272[2];
-} // val(H0Pdapp(H0Pcon(strxcon_cons(6)); -1; H0Pvar(x0(124)), H0Pvar(xs(125))))
+} // val(H0Pdapp(H0Pcon(strxcon_cons(6)); -1; H0Pvar(x0(127)), H0Pvar(xs(128))))
 ;
 // ././../../../StreamDemo/DATS/StreamDemo.dats: 2652(line=221, offs=1) -- 2688(line=222, offs=28)
 {
@@ -5493,21 +5532,21 @@ xtmp275 = a0ref_set_2496_(a3x1[2], xtmp274);
 } // val(H0Pnil())
 ;
 return xtmp273;
-} // function // StreamDemo_get_elt(77)
+} // function // StreamDemo_get_elt(83)
 ;
 xtmp269 = StreamDemo_get_elt_202_(a2x1);
 }
 ;
 return xtmp269;
-} // function // StreamDemo_next1(81)
+} // function // StreamDemo_next1(87)
 ;
 xtmp262 = StreamDemo_next1_492_(xtop84);
 }
 ;
 return xtmp262;
-} // function // the_StreamDemo2_next1(51)
+} // function // the_StreamDemo2_next1(54)
 
-// ././../../../StreamDemo2/StreamDemo2.dats: 1048(line=65, offs=1) -- 1117(line=67, offs=40)
+// ././../../../StreamDemo2/StreamDemo2_.dats: 1236(line=76, offs=1) -- 1305(line=78, offs=40)
 function
 the_StreamDemo2_prev1()
 {
@@ -5542,7 +5581,7 @@ xtmp281 = a0ref_set_2496_(a3x1[1], a3x2);
 }
 ;
 return xtmp281;
-} // function // StreamDemo_set_dir(80)
+} // function // StreamDemo_set_dir(86)
 ;
 {
 // /home/hwxi/Research/ATS-Xanadu/prelude/DATS/CATS/JS/basics.dats: 3589(line=255, offs=1) -- 3646(line=256, offs=50)
@@ -5587,7 +5626,7 @@ xtmp285 = a0ref_get_2457_(a3x1[2]);
 }
 ;
 ;
-} // val(H0Pvar(xs(123)))
+} // val(H0Pvar(xs(126)))
 ;
 // ././../../../StreamDemo/DATS/StreamDemo.dats: 2620(line=219, offs=1) -- 2651(line=220, offs=27)
 {
@@ -5596,7 +5635,7 @@ if(0!==xtmp286[0]) XATS2JS_patckerr0();
 ;
 xtmp287 = xtmp286[1];
 xtmp288 = xtmp286[2];
-} // val(H0Pdapp(H0Pcon(strxcon_cons(6)); -1; H0Pvar(x0(124)), H0Pvar(xs(125))))
+} // val(H0Pdapp(H0Pcon(strxcon_cons(6)); -1; H0Pvar(x0(127)), H0Pvar(xs(128))))
 ;
 // ././../../../StreamDemo/DATS/StreamDemo.dats: 2652(line=221, offs=1) -- 2688(line=222, offs=28)
 {
@@ -5615,58 +5654,115 @@ xtmp289 = a0ref_set_2496_(a3x1[2], xtmp288);
 } // val(H0Pnil())
 ;
 return xtmp287;
-} // function // StreamDemo_get_elt(77)
+} // function // StreamDemo_get_elt(83)
 ;
 xtmp283 = StreamDemo_get_elt_202_(a2x1);
 }
 ;
 return xtmp283;
-} // function // StreamDemo_prev1(82)
+} // function // StreamDemo_prev1(88)
 ;
 xtmp276 = StreamDemo_prev1_554_(xtop84);
 }
 ;
 return xtmp276;
-} // function // the_StreamDemo2_prev1(52)
+} // function // the_StreamDemo2_prev1(55)
 
 // } // end-of-local
 
-// ././../../../StreamDemo2/StreamDemo2.dats: 1183(line=72, offs=1) -- 1246(line=73, offs=56)
+// ././../../../StreamDemo2/StreamDemo2_.dats: 1371(line=83, offs=1) -- 1426(line=84, offs=48)
+function
+the_StreamDemo2_title()
+{
+let xtmp290;
+{
+// ./QueenPuzzle.dats: 1817(line=146, offs=1) -- 1876(line=148, offs=28)
+function
+StreamDemo2_title_170_()
+{
+return "StreamDemo2-QueenPuzzle";
+} // function // StreamDemo2_title(44)
+;
+xtmp290 = StreamDemo2_title_170_();
+}
+;
+return xtmp290;
+} // function // the_StreamDemo2_title(56)
+
+// ././../../../StreamDemo2/StreamDemo2_.dats: 1427(line=85, offs=1) -- 1494(line=86, offs=60)
+function
+the_StreamDemo2_stream_name()
+{
+let xtmp291;
+{
+// ./QueenPuzzle.dats: 1897(line=150, offs=1) -- 1965(line=152, offs=31)
+function
+StreamDemo2_stream_name_307_()
+{
+return "Solving the 8 Queen-Puzzle";
+} // function // StreamDemo2_stream_name(45)
+;
+xtmp291 = StreamDemo2_stream_name_307_();
+}
+;
+return xtmp291;
+} // function // the_StreamDemo2_stream_name(57)
+
+// ././../../../StreamDemo2/StreamDemo2_.dats: 1495(line=87, offs=1) -- 1568(line=88, offs=66)
+function
+the_StreamDemo2_input_descript()
+{
+let xtmp292;
+{
+// ./QueenPuzzle.dats: 1966(line=153, offs=1) -- 2087(line=155, offs=81)
+function
+StreamDemo2_input_descript_462_()
+{
+return "The stream of 8 Queen-Puzzle (partial) solutions based on depth-first search";
+} // function // StreamDemo2_input_descript(46)
+;
+xtmp292 = StreamDemo2_input_descript_462_();
+}
+;
+return xtmp292;
+} // function // the_StreamDemo2_input_descript(58)
+
+// ././../../../StreamDemo2/StreamDemo2_.dats: 1589(line=90, offs=1) -- 1652(line=91, offs=56)
 function
 the_StreamDemo2_pauseq(a1x1)
 {
-let xtmp291;
-;
-{
-// ./QueenPuzzle.dats: 2113(line=165, offs=1) -- 2228(line=172, offs=8)
-function
-StreamDemo2_pauseq_148_(a2x1)
-{
-let xtmp293;
 let xtmp294;
-let xtmp295;
-let xtmp296;
 ;
 {
-xtmp294 = 0;
+// ./QueenPuzzle.dats: 2406(line=176, offs=1) -- 2521(line=183, offs=8)
+function
+StreamDemo2_pauseq_710_(a2x1)
+{
+let xtmp296;
+let xtmp297;
+let xtmp298;
+let xtmp299;
+;
+{
+xtmp297 = 0;
 do {
 do {
 if(1!==a2x1[0]) break;
 //L1PCKany();
-xtmp294 = 1;
+xtmp297 = 1;
 } while(false);
-if(xtmp294 > 0 ) break;
+if(xtmp297 > 0 ) break;
 do {
 if(0!==a2x1[0]) break;
-xtmp294 = 2;
+xtmp297 = 2;
 } while(false);
-if(xtmp294 > 0 ) break;
+if(xtmp297 > 0 ) break;
 } while(false);
 } // case-patck0
 switch
-(xtmp294) {
+(xtmp297) {
 case 1:
-xtmp295 = a2x1[1];
+xtmp298 = a2x1[1];
 {
 // /home/hwxi/Research/ATS-Xanadu/prelude/DATS/CATS/JS/basics.dats: 2559(line=185, offs=1) -- 2614(line=186, offs=48)
 // { // val-binding
@@ -5675,85 +5771,85 @@ const // implval/fun
 gint_eq_sint_sint_2293_ = XATS2JS_gint_eq_sint_sint
 ;
 {
-xtmp296 = size_639_(xtmp295);
+xtmp299 = size_639_(xtmp298);
 }
 ;
-xtmp293 = gint_eq_sint_sint_2293_(xtmp296, 8);
+xtmp296 = gint_eq_sint_sint_2293_(xtmp299, 8);
 }
 ;
 break;
 case 2:
-xtmp293 = false;
+xtmp296 = false;
 break;
 default: XATS2JS_matcherr0();
 } // case-switch
 ;
-return xtmp293;
-} // function // StreamDemo2_pauseq(49)
+return xtmp296;
+} // function // StreamDemo2_pauseq(52)
 ;
-xtmp291 = StreamDemo2_pauseq_148_(a1x1);
+xtmp294 = StreamDemo2_pauseq_710_(a1x1);
 }
 ;
-return xtmp291;
-} // function // the_StreamDemo2_pauseq(53)
+return xtmp294;
+} // function // the_StreamDemo2_pauseq(59)
 
-// ././../../../StreamDemo2/StreamDemo2.dats: 1247(line=74, offs=1) -- 1310(line=75, offs=56)
+// ././../../../StreamDemo2/StreamDemo2_.dats: 1653(line=92, offs=1) -- 1716(line=93, offs=56)
 function
 the_StreamDemo2_xprint(a1x1)
 {
-let xtmp298;
-;
-{
-// ./QueenPuzzle.dats: 2006(line=157, offs=1) -- 2112(line=164, offs=8)
-function
-StreamDemo2_xprint_196_(a2x1)
-{
-let xtmp300;
 let xtmp301;
-let xtmp302;
 ;
 {
-xtmp301 = 0;
+// ./QueenPuzzle.dats: 2299(line=168, offs=1) -- 2405(line=175, offs=8)
+function
+StreamDemo2_xprint_849_(a2x1)
+{
+let xtmp303;
+let xtmp304;
+let xtmp305;
+;
+{
+xtmp304 = 0;
 do {
 do {
 if(0!==a2x1[0]) break;
-xtmp301 = 1;
+xtmp304 = 1;
 } while(false);
-if(xtmp301 > 0 ) break;
+if(xtmp304 > 0 ) break;
 do {
 if(1!==a2x1[0]) break;
 //L1PCKany();
-xtmp301 = 2;
+xtmp304 = 2;
 } while(false);
-if(xtmp301 > 0 ) break;
+if(xtmp304 > 0 ) break;
 } while(false);
 } // case-patck0
 switch
-(xtmp301) {
+(xtmp304) {
 case 1:
 {
-xtmp300 = [-1];;
+xtmp303 = [-1];;
 }
 ;
 break;
 case 2:
-xtmp302 = a2x1[1];
+xtmp305 = a2x1[1];
 {
-xtmp300 = qprint_684_(xtmp302);
+xtmp303 = qprint_684_(xtmp305);
 }
 ;
 break;
 default: XATS2JS_matcherr0();
 } // case-switch
 ;
-return xtmp300;
-} // function // StreamDemo2_xprint(48)
+return xtmp303;
+} // function // StreamDemo2_xprint(51)
 ;
-xtmp298 = StreamDemo2_xprint_196_(a1x1);
+xtmp301 = StreamDemo2_xprint_849_(a1x1);
 }
 ;
-return xtmp298;
-} // function // the_StreamDemo2_xprint(54)
+return xtmp301;
+} // function // the_StreamDemo2_xprint(60)
 
 // } // end-of-include
 
