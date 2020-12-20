@@ -6309,7 +6309,7 @@ let xtmp365;
 function
 StreamDemo2_stream_name_234_()
 {
-return "Solving the HanoiTower Puzzle of 8";
+return "Solving the HanoiTower Puzzle";
 } // function // StreamDemo2_stream_name(40)
 ;
 xtmp365 = StreamDemo2_stream_name_234_();
@@ -6328,7 +6328,7 @@ let xtmp366;
 function
 StreamDemo2_input_descript_389_()
 {
-return "The stream of moves for solving the HanoiTower Puzzle of 8";
+return "The stream of moves for solving the HanoiTower Puzzle of 8 disks";
 } // function // StreamDemo2_input_descript(41)
 ;
 xtmp366 = StreamDemo2_input_descript_389_();
