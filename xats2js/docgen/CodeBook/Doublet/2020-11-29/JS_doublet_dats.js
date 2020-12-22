@@ -8332,7 +8332,7 @@ xtmp309 = println_0_1752_();
 return xtmp309;
 } // function // println_6(80)
 ;
-xtmp255 = println_6_2259_("[", xtmp216, "] and [", xtmp217, "] are a doublet:", xtmp241);
+xtmp255 = println_6_2259_("[", xtmp216, "] and [", xtmp217, "] are a doublet:\n", xtmp241);
 }
 ;
 xtmp219 = xtmp255;
