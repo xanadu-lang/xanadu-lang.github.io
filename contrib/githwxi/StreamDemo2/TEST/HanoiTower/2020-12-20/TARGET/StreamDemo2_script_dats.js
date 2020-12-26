@@ -3621,7 +3621,7 @@ return xtmp55;
 
 // ./HanoiTower.dats: 1938(line=144, offs=1) -- 2060(line=156, offs=12)
 function
-disk_get_at_1941_(a1x1, a1x2)
+disc_get_at_1941_(a1x1, a1x2)
 {
 let xtmp73;
 let xtmp82;
@@ -3861,12 +3861,12 @@ xtmp82 = list_get_at_2442_(a1x1, xtmp96);
 } // if-else
 ;
 return xtmp82;
-} // function // disk_get_at(15)
+} // function // disc_get_at(15)
 
 
 // ./HanoiTower.dats: 2064(line=158, offs=1) -- 2352(line=188, offs=11)
 function
-print_disk_2067_(a1x1)
+print_disc_2067_(a1x1)
 {
 let xtmp114;
 let xtmp115;
@@ -4086,7 +4086,7 @@ xtmp116 = auxr_2211_(0);
 }
 ;
 return xtmp116;
-} // function // print_disk(28)
+} // function // print_disc(28)
 
 
 // ./HanoiTower.dats: 2379(line=190, offs=1) -- 2617(line=209, offs=12)
@@ -4127,26 +4127,26 @@ if
 {
 {
 {
-xtmp122 = disk_get_at_1941_(a1x1[1], a2x1);
+xtmp122 = disc_get_at_1941_(a1x1[1], a2x1);
 }
 ;
-xtmp121 = print_disk_2067_(xtmp122);
-}
-;
-{
-{
-xtmp124 = disk_get_at_1941_(a1x1[2], a2x1);
-}
-;
-xtmp123 = print_disk_2067_(xtmp124);
+xtmp121 = print_disc_2067_(xtmp122);
 }
 ;
 {
 {
-xtmp126 = disk_get_at_1941_(a1x1[3], a2x1);
+xtmp124 = disc_get_at_1941_(a1x1[2], a2x1);
 }
 ;
-xtmp125 = print_disk_2067_(xtmp126);
+xtmp123 = print_disc_2067_(xtmp124);
+}
+;
+{
+{
+xtmp126 = disc_get_at_1941_(a1x1[3], a2x1);
+}
+;
+xtmp125 = print_disc_2067_(xtmp126);
 }
 ;
 {
@@ -6328,7 +6328,7 @@ let xtmp366;
 function
 StreamDemo2_input_descript_389_()
 {
-return "The stream of moves for solving the HanoiTower Puzzle of 8 disks";
+return "The stream of moves for solving the HanoiTower Puzzle of 8 discs";
 } // function // StreamDemo2_input_descript(41)
 ;
 xtmp366 = StreamDemo2_input_descript_389_();
