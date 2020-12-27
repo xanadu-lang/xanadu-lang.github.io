@@ -1,4 +1,5 @@
-# [xanadu-lang.github.io/xats2js/docgen](https://github.com/xanadu-lang/xats2js/tree/master/docgen)
+# [xats2js/docgen](https://github.com/xanadu-lang/xats2js/tree/master/docgen)
 
+## [CodeBook](./CodeBook)
 ## [P-Ground](./P-Ground)
 
