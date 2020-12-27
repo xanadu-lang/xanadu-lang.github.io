@@ -4,4 +4,4 @@ This is a playground where examples presented are more of an experimental nature
 
 ## [githwxi](./githwxi)
 
-For contribution of all sorts made by [githwxi](./https://github.com/githwxi).
+For contribution of all sorts made by [githwxi](https://github.com/githwxi).
