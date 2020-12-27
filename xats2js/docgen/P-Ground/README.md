@@ -1,4 +1,3 @@
-# xanadu-lang.github.io/xats2js/docgen/P-GROUND
+# [xanadu-lang.github.io/xats2js/docgen/P-Ground](https://github.com/xanadu-lang/xats2js/tree/master/docgen/P-Ground)
 
-## [Game-of-24](./githwxi/Game-of-24/2020-11-14)
-## [Tic-Tac-Toe](./githwxi/Tic-Tac-Toe/2020-12-27)
+## [githwxi](./githwxi)
