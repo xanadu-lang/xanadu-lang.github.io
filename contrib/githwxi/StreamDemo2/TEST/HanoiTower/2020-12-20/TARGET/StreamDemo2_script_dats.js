@@ -6328,7 +6328,7 @@ let xtmp366;
 function
 StreamDemo2_input_descript_389_()
 {
-return "The stream of moves for solving the HanoiTower Puzzle of 8 discs";
+return "The stream of moves for solving the HanoiTower puzzle of 8 discs";
 } // function // StreamDemo2_input_descript(41)
 ;
 xtmp366 = StreamDemo2_input_descript_389_();
