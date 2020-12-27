@@ -1,4 +1,4 @@
-# [xats2js](https://github.com/xanadu-lang/xats2js.git)
+# [contrib](https://github.com/xanadu-lang/contrib.git)
 
 For presenting and documenting
 the contrib project under xanadu-lang.
