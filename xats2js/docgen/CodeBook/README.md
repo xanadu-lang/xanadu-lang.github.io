@@ -12,7 +12,7 @@ Please click
 [here](https://github.com/xanadu-lang/xats2js/tree/master/docgen/CodeBook/Hello)
 for the source code.
 
-## [Doublet](./Doublet/2020-11-29)
+## [Doublet](https://github.com/xanadu-lang/xats2js/tree/master/docgen/CodeBook/Doublet)
 
 An implementation is given of Doublet, a word game invented by Lewis
 Carroll (1832-1898), the author of children's classics "Alice in Wonderland".
@@ -20,15 +20,11 @@ This example shows a typical approach to graph-based breadth-first search that
 is based on the gtree library (which provides templates for enumerating a graph
 lazily in various fashions (e.g., depth-first and breadth-first).
   
-Please click
-[here](https://github.com/xanadu-lang/xats2js/tree/master/docgen/CodeBook/Doublet)
-for the source code.
+Please click [here](./Doublet/2020-11-29) for a demo.
 
-## [Spelling](./Spelling/2020-12-22)
+## [Spelling](https://github.com/xanadu-lang/xats2js/tree/master/docgen/CodeBook/Spelling)
 
 An implementation is given of a simple word game, demonstrating a stream-based
 approach to traversing a dictionary of words.
 
-Please click
-[here](https://github.com/xanadu-lang/xats2js/tree/master/docgen/CodeBook/Spelling)
-for the source code.
+Please click [here](./Spelling/2020-12-22) for a demo.
