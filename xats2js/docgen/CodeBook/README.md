@@ -3,14 +3,12 @@
 The examples presented in this directory aim at showing how things are typically
 done when ATS3 is used in co-programming with JavaScript (and various related tools).
 
-## [Hello](./Doublet/2020-11-22)
+## [Hello](https://github.com/xanadu-lang/xats2js/tree/master/docgen/CodeBook/Hello)
 
 This is a short introductory example that explains a few basics in co-programming
 with ATS3 + JavaScript.
 
-Please click
-[here](https://github.com/xanadu-lang/xats2js/tree/master/docgen/CodeBook/Hello)
-for the source code.
+Please click [here](./Hello/2020-11-22) for a demo.
 
 ## [Doublet](https://github.com/xanadu-lang/xats2js/tree/master/docgen/CodeBook/Doublet)
 
