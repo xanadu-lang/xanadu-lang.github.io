@@ -5,7 +5,7 @@ the xats2js project under xanadu-lang.
 
 Xats2js is a compiler translating xatscml to JS, where XATSCML
 is the target language of the xatsopt compiler (which translates
-ATS/Xanadu (that is, ATS3) into XATSCML).
+ATS3(that is, the 3rd edition of ATS) into XATSCML).
 
 ## [docgen](./docgen)
 
