@@ -4429,7 +4429,7 @@ let xtmp154;
 function
 StreamDemo2_title_97_()
 {
-return "StreamDemo2-PrimeNums";
+return "StreamDemo2-NatPairEnum";
 } // function // StreamDemo2_title(0)
 ;
 xtmp154 = StreamDemo2_title_97_();
