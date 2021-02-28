@@ -4820,7 +4820,7 @@ let xtmp201;
 function
 StreamDemo2_input_descript_389_()
 {
-return "The stream of pairs of positives ordered by their cubic sums: (1, 1), (2, 2), (1, 3), (2, 3), (3, 3), (1, 4), (2, 4), ...";
+return "The stream of pairs of positives ordered by their cubic sums: (1, 1), (1, 2), (2, 2), (1, 3), (2, 3), (3, 3), (1, 4), (2, 4), ...";
 } // function // StreamDemo2_input_descript(2)
 ;
 xtmp201 = StreamDemo2_input_descript_389_();
