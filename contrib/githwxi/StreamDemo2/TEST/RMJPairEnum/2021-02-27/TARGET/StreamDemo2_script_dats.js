@@ -3076,19 +3076,19 @@ var xtop93;
 // ./RMJPairEnum.dats: 416(line=25, offs=1) -- 475(line=27, offs=28)
 // L1DCLnone0()
 
-// ./RMJPairEnum.dats: 496(line=29, offs=1) -- 595(line=31, offs=62)
+// ./RMJPairEnum.dats: 496(line=29, offs=1) -- 575(line=31, offs=42)
 // L1DCLnone0()
 
-// ./RMJPairEnum.dats: 596(line=32, offs=1) -- 734(line=34, offs=98)
+// ./RMJPairEnum.dats: 576(line=32, offs=1) -- 742(line=34, offs=126)
 // L1DCLnone0()
 
-// ./RMJPairEnum.dats: 755(line=36, offs=1) -- 1267(line=79, offs=14)
+// ./RMJPairEnum.dats: 763(line=36, offs=1) -- 1275(line=79, offs=14)
 // L1DCLnone0()
 
-// ./RMJPairEnum.dats: 1324(line=81, offs=1) -- 1518(line=94, offs=8)
+// ./RMJPairEnum.dats: 1332(line=81, offs=1) -- 1526(line=94, offs=8)
 // L1DCLnone0()
 
-// ./RMJPairEnum.dats: 1607(line=101, offs=1) -- 1650(line=101, offs=44)
+// ./RMJPairEnum.dats: 1615(line=101, offs=1) -- 1658(line=101, offs=44)
 // { // include
 // ./../../../StreamDemo2/StreamDemo2_.dats
 // ././../../../StreamDemo2/StreamDemo2_.dats: 332(line=20, offs=1) -- 388(line=22, offs=31)
@@ -3876,19 +3876,19 @@ return xtmp6;
 } // function // StreamDemo_make(22)
 ;
 {
-// ./RMJPairEnum.dats: 755(line=36, offs=1) -- 1267(line=79, offs=14)
+// ./RMJPairEnum.dats: 763(line=36, offs=1) -- 1275(line=79, offs=14)
 function
 StreamDemo2_stream_553_()
 {
 let xtmp152;
-// ./RMJPairEnum.dats: 815(line=42, offs=1) -- 1262(line=77, offs=8)
+// ./RMJPairEnum.dats: 823(line=42, offs=1) -- 1270(line=77, offs=8)
 function
-helper1_818_(a2x1)
+helper1_826_(a2x1)
 {
 let xtmp95;
 let xtmp143;
 ;
-// ./RMJPairEnum.dats: 942(line=53, offs=1) -- 1148(line=68, offs=8)
+// ./RMJPairEnum.dats: 950(line=53, offs=1) -- 1156(line=68, offs=8)
 // L1DCLnone0();
 xtmp143 =
 function()
@@ -3993,7 +3993,7 @@ xtmp112 = xtmp109[2];
 // /home/hwxi/Research/ATS-Xanadu/prelude/DATS/stream.dats: 7772(line=641, offs=1) -- 7798(line=641, offs=27)
 {
 {
-// ./RMJPairEnum.dats: 942(line=53, offs=1) -- 1148(line=68, offs=8)
+// ./RMJPairEnum.dats: 950(line=53, offs=1) -- 1156(line=68, offs=8)
 function
 g_cmp_1644_(a7x1, a7x2)
 {
@@ -4016,21 +4016,21 @@ let xtmp131;
 let xtmp132;
 ;
 ;
-// ./RMJPairEnum.dats: 979(line=57, offs=1) -- 997(line=58, offs=15)
+// ./RMJPairEnum.dats: 987(line=57, offs=1) -- 1005(line=58, offs=15)
 {
 //L1PCKtup(0; L1PCKany(), L1PCKany());
 xtmp116 = a7x1[1];
 xtmp117 = a7x1[2];
 } // val(H0Ptuple(0; -1; H0Pvar(i1(4)), H0Pvar(j1(5))))
 ;
-// ./RMJPairEnum.dats: 998(line=59, offs=1) -- 1016(line=60, offs=15)
+// ./RMJPairEnum.dats: 1006(line=59, offs=1) -- 1024(line=60, offs=15)
 {
 //L1PCKtup(0; L1PCKany(), L1PCKany());
 xtmp118 = a7x2[1];
 xtmp119 = a7x2[2];
 } // val(H0Ptuple(0; -1; H0Pvar(i2(6)), H0Pvar(j2(7))))
 ;
-// ./RMJPairEnum.dats: 1017(line=61, offs=1) -- 1045(line=62, offs=18)
+// ./RMJPairEnum.dats: 1025(line=61, offs=1) -- 1053(line=62, offs=18)
 {
 {
 // /home/hwxi/Research/ATS-Xanadu/prelude/DATS/CATS/JS/basics.dats: 3428(line=245, offs=1) -- 3485(line=246, offs=50)
@@ -4085,7 +4085,7 @@ xtmp120 = gint_add_sint_sint_3439_(xtmp121, xtmp123);
 ;
 } // val(H0Pvar(sum1(8)))
 ;
-// ./RMJPairEnum.dats: 1046(line=63, offs=1) -- 1074(line=64, offs=18)
+// ./RMJPairEnum.dats: 1054(line=63, offs=1) -- 1082(line=64, offs=18)
 {
 {
 // /home/hwxi/Research/ATS-Xanadu/prelude/DATS/CATS/JS/basics.dats: 3428(line=245, offs=1) -- 3485(line=246, offs=50)
@@ -4140,7 +4140,7 @@ xtmp125 = gint_add_sint_sint_3439_(xtmp126, xtmp128);
 ;
 } // val(H0Pvar(sum2(9)))
 ;
-// ./RMJPairEnum.dats: 1075(line=65, offs=1) -- 1101(line=65, offs=27)
+// ./RMJPairEnum.dats: 1083(line=65, offs=1) -- 1109(line=65, offs=27)
 {
 {
 // /home/hwxi/Research/ATS-Xanadu/prelude/DATS/CATS/JS/basics.dats: 3243(line=232, offs=1) -- 3300(line=233, offs=50)
@@ -4263,7 +4263,7 @@ gint_add_sint_sint_3439_ = XATS2JS_gint_add_sint_sint
 xtmp140 = gint_add_sint_sint_3439_(a2x1, 1);
 }
 ;
-xtmp139 = helper1_818_(xtmp140);
+xtmp139 = helper1_826_(xtmp140);
 }
 ;
 {
@@ -4277,7 +4277,7 @@ gint_add_sint_sint_3439_ = XATS2JS_gint_add_sint_sint
 xtmp142 = gint_add_sint_sint_3439_(a2x1, 1);
 }
 ;
-xtmp141 = helper2_1187_(a2x1, xtmp142);
+xtmp141 = helper2_1195_(a2x1, xtmp142);
 }
 ;
 xtmp98 = stream_merge_3897_(xtmp139, xtmp141);
@@ -4293,7 +4293,7 @@ xtmp95 = XATS2JS_new_lazy(xtmp143);
 return xtmp95;
 } // function // helper1(4)
 function
-helper2_1187_(a2x1, a2x2)
+helper2_1195_(a2x1, a2x2)
 {
 let xtmp146;
 let xtmp151;
@@ -4322,7 +4322,7 @@ gint_add_sint_sint_3439_ = XATS2JS_gint_add_sint_sint
 xtmp150 = gint_add_sint_sint_3439_(a2x2, 1);
 }
 ;
-xtmp149 = helper2_1187_(a2x1, xtmp150);
+xtmp149 = helper2_1195_(a2x1, xtmp150);
 }
 ;
 xtmp147 = [1, xtmp148, xtmp149];
@@ -4336,7 +4336,7 @@ return xtmp146;
 } // function // helper2(11)
 ;
 {
-xtmp152 = helper1_818_(1);
+xtmp152 = helper1_826_(1);
 }
 ;
 return xtmp152;
@@ -4782,7 +4782,7 @@ let xtmp199;
 function
 StreamDemo2_title_97_()
 {
-return "StreamDemo2-NatPairEnum";
+return "StreamDemo2-RMJPairEnum";
 } // function // StreamDemo2_title(0)
 ;
 xtmp199 = StreamDemo2_title_97_();
@@ -4797,11 +4797,11 @@ the_StreamDemo2_stream_name()
 {
 let xtmp200;
 {
-// ./RMJPairEnum.dats: 496(line=29, offs=1) -- 595(line=31, offs=62)
+// ./RMJPairEnum.dats: 496(line=29, offs=1) -- 575(line=31, offs=42)
 function
 StreamDemo2_stream_name_234_()
 {
-return "Enumerating Pairs of Postives Ordered by Their Cubic Sums";
+return "Enumerating Ordered Pairs of Postives";
 } // function // StreamDemo2_stream_name(1)
 ;
 xtmp200 = StreamDemo2_stream_name_234_();
@@ -4816,11 +4816,11 @@ the_StreamDemo2_input_descript()
 {
 let xtmp201;
 {
-// ./RMJPairEnum.dats: 596(line=32, offs=1) -- 734(line=34, offs=98)
+// ./RMJPairEnum.dats: 576(line=32, offs=1) -- 742(line=34, offs=126)
 function
 StreamDemo2_input_descript_389_()
 {
-return "The stream of pairs of positives: (1, 1), (2, 2), (1, 3), (2, 3), (3, 3), (1, 4), (2, 4), ...";
+return "The stream of pairs of positives ordered by their cubic sums: (1, 1), (2, 2), (1, 3), (2, 3), (3, 3), (1, 4), (2, 4), ...";
 } // function // StreamDemo2_input_descript(2)
 ;
 xtmp201 = StreamDemo2_input_descript_389_();
@@ -4857,7 +4857,7 @@ the_StreamDemo2_xprint(a1x1)
 let xtmp206;
 ;
 {
-// ./RMJPairEnum.dats: 1324(line=81, offs=1) -- 1518(line=94, offs=8)
+// ./RMJPairEnum.dats: 1332(line=81, offs=1) -- 1526(line=94, offs=8)
 function
 StreamDemo2_xprint_776_(a2x1)
 {
@@ -4899,7 +4899,7 @@ xtmp208 = [-1];;
 break;
 case 2:
 xtmp210 = a2x1[1];
-// ./RMJPairEnum.dats: 1426(line=89, offs=3) -- 1441(line=89, offs=18)
+// ./RMJPairEnum.dats: 1434(line=89, offs=3) -- 1449(line=89, offs=18)
 {
 //L1PCKtup(0; L1PCKany(), L1PCKany());
 xtmp211 = xtmp210[1];

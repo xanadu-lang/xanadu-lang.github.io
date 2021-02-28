@@ -24,14 +24,14 @@ item_type =
 (* ****** ****** *)
 impltmp
 StreamDemo2_title<>() =
-  "StreamDemo2-NatPairEnum"
+  "StreamDemo2-RMJPairEnum"
 (* ****** ****** *)
 impltmp
 StreamDemo2_stream_name<>() =
-  "Enumerating Pairs of Postives Ordered by Their Cubic Sums"
+  "Enumerating Ordered Pairs of Postives"
 impltmp
 StreamDemo2_input_descript<>() =
-  "The stream of pairs of positives: (1, 1), (2, 2), (1, 3), (2, 3), (3, 3), (1, 4), (2, 4), ..."
+  "The stream of pairs of positives ordered by their cubic sums: (1, 1), (2, 2), (1, 3), (2, 3), (3, 3), (1, 4), (2, 4), ..."
 (* ****** ****** *)
 impltmp
 StreamDemo2_stream<>() =
@@ -101,4 +101,4 @@ StreamDemo2_pauseq<>(opt) = false
 #include "$(STREAMDEMO2)/StreamDemo2_.dats"
 (* ****** ****** *)
 
-(* end of [NatPairEnum.dats] *)
+(* end of [RMJPairEnum.dats] *)
