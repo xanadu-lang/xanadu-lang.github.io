@@ -1,6 +1,6 @@
 # Game-of-24
 
-## Date
+## Date: 2025-12-14
 
 Sun Dec 14 12:56:52 PM EST 2025
 
@@ -18,6 +18,9 @@ n3, n4) is said to be a good quad. For instance, (10,10,4,4) is a good
 quad since we have: (10*10-4)/4 = 24. And (5,7,7,11) is also a good
 quad since we have: (5-11/7)*7 = 24. Game-of-24 is a game that
 determines whether four given integers form a good quad or not.
+
+Please click [here](https://xanadu-lang.github.io/xats2js/docgen/P-Ground/githwxi/Game-of-24/2025-12-14/.)
+for a demo of Game-of-24.
 
 ## Algorithm
 

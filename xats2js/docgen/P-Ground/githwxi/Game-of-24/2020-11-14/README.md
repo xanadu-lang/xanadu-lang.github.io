@@ -1,5 +1,7 @@
 # Game-of-24
 
+## Date: 2020-11-14
+
 Given four integers n1, n2, n3 and n4, one chooses two and uses them
 to produce a rational number r1 by applying either addition,
 subtraction, multiplication or division; one mixes r1 with the
